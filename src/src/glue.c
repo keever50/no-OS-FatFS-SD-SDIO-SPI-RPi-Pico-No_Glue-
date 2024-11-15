@@ -21,7 +21,7 @@ specific language governing permissions and limitations under the License.
 /*-----------------------------------------------------------------------*/
 //
 //
-#ifdef FATFS_SD_GLUE
+#ifndef FATFS_SD_NO_GLUE
 #include "hw_config.h"
 #include "my_debug.h"
 #include "sd_card.h"
