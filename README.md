@@ -1,5 +1,7 @@
 # no-OS-FatFS-SD-SDIO-SPI-RPi-Pico
-# v3.6.0
+# v3.6.0 (No glue)
+
+Removed the glue.c to create custom FatFS glue. For cases when more than just SD cards are used on a system.
 
 ## C/C++ Library for SD Cards on the Pico
 
